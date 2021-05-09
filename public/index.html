@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>frontend-assignment-exercise</title>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="logo" href="#">
+        <b>Red Alert</b>
+        <br />
+        <small>by Warning</small>
+      </a>
+    </div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Protect your home</h1>
+        <h2>for a criminally low price</h2>
+
+        <picture>
+          <source
+            srcset="assets/images/product-2-transparent.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="assets/images/product-2-transparent.png"
+            type="image/png"
+          />
+          <img
+            src="assets/images/product-2-transparent.png"
+            alt="product-2-transparent"
+            class="hero-img hero-img-left"
+          />
+        </picture>
+
+        <picture>
+          <source
+            srcset="assets/images/product-1-transparent.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="assets/images/product-1-transparent.png"
+            type="image/png"
+          />
+          <img
+            src="assets/images/product-1-transparent.png"
+            alt="product-1-transparent"
+            class="hero-img hero-img-right"
+          />
+        </picture>
+
+        <div class="hero-cta">
+          <a role="button" href="#" class="btn btn-primary"
+            >Get started for € 59,99</a
+          >
+          <a role="button" id="myBtn" href="#" class="btn btn-secondary"
+            >More information</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="maq-section">
+      <div class="container">
+        <h3>Most asked questions</h3>
+
+        <div class="accordion-item">
+          <button class="accordion">
+            How long does Red alert stay active after enabling?
+          </button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion">When should I replace Red Alert?</button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion">
+            What is the benefit of Red Alert compared tho other home invasion
+            alarms?
+          </button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion">
+            What guarantees does Red Alert give against burglary?
+          </button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion">
+            Why is Red Alert so cheap compared to competitors?
+          </button>
+          <div class="panel">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>More information</h2>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <picture>
+              <source
+                srcset="assets/images/product-2-transparent.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="assets/images/product-2-transparent.png"
+                type="image/png"
+              />
+              <img
+                src="assets/images/product-2-transparent.png"
+                alt="product-2-transparent"
+                class="card-img"
+              />
+            </picture>
+
+            <div class="card-body">
+              <h5 class="card-title">Warning Red Alert Basic</h5>
+              <p class="card-description">
+                Contains 3 door sensors, 2 door locks, 1 alarm and 1 hub.
+              </p>
+              <p class="card-price">€ 59,99</p>
+            </div>
+          </div>
+
+          <hr />
+          <div class="card">
+            <picture>
+              <source
+                srcset="assets/images/product-1-transparent.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="assets/images/product-1-transparent.png"
+                type="image/png"
+              />
+              <img
+                src="assets/images/product-1-transparent.png"
+                alt="product-1-transparent"
+                class="card-img"
+              />
+            </picture>
+            <div class="card-body">
+              <h5 class="card-title">Warning Red Alert Premium</h5>
+              <p class="card-description">
+                Contains everything Red Alert Basic has, pus a weather proof
+                camera
+              </p>
+              <p class="card-price">€ 109,99</p>
+            </div>
+          </div>
+
+          <a id="myModalClose" href="#" class="btn btn-primary">Close</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/scripts/bundle.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+// Layout: contains all the CSS that handles the layout, such as the container and any grid systems.
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff;
+  font-size: 16px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+strong {
+  margin-top: 0;
+  color: $dark-grey;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.8em;
+  margin-bottom: 0.3em;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 50%;
+  }
+}
